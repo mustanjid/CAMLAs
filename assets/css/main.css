@@ -4040,9 +4040,9 @@ input[type="submit"].btn-block {
 }
 .navbar-brand {
   display: inline-block;
-  padding-top: 0.324219rem;
-  padding-bottom: 0.324219rem;
-  margin-right: 1rem;
+  /* padding-top: 0.324219rem; */
+  /* padding-bottom: 0.324219rem; */
+  margin-left: 10rem;
   font-size: 1.171875rem;
   line-height: inherit;
   white-space: nowrap;
@@ -9796,14 +9796,14 @@ infobox info p {
     flex-direction: column;
   }
   .navbar .navbar-nav {
-    border-bottom: 0.08vh solid white;
+    /* border-bottom: 0.08vh solid white; */
   }
   .navbar .nav-item {
     padding: 0.5em 1em;
   }
 }
 .navbar .navbar-nav {
-  border-top: 0.08vh solid white;
+  /* border-top: 0.08vh solid white; */
 }
 
 @media (max-width: 1199.98px) {
