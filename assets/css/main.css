@@ -9793,7 +9793,7 @@ infobox info p {
 }
 @media only screen and (min-width: 960px) {
   .navbar {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
   .navbar .navbar-nav {
     /* border-bottom: 0.08vh solid white; */
