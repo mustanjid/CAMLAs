@@ -1866,11 +1866,12 @@ pre code {
   background-color: hsla(0, 0%, 100%, 0.075);
 }
 
-@media (min-width: 320px) and (max-width: 568px){
+@media only screen and (max-width: 568px){
   .navbar-brand{
     margin-left: 0rem;
   }
 }
+
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     display: block;
