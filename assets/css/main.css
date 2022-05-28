@@ -572,8 +572,8 @@ pre code {
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-right: -15px;
+  margin-left: -15px; */
 }
 .no-gutters {
   margin-right: 0;
@@ -7606,7 +7606,7 @@ button.bg-dark:hover {
   margin-left: 3rem !important;
 }
 .p-0 {
-  padding: 0 !important;
+  padding: .4rem !important;
 }
 .pt-0,
 .py-0 {
