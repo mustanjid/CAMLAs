@@ -32,6 +32,14 @@ footer {
   text-align: center;
 }
 
+.profile-desc{
+  display: flex;
+  justify-content: space-between;
+}
+.profile-year{
+  font-style: italic;
+}
+
 /*!
  * Bootswatch v4.6.0
  * Homepage: https://bootswatch.com
@@ -855,6 +863,24 @@ pre code {
 .offset-11 {
   margin-left: 91.666667%;
 }
+
+@media (min-width: 320px) {
+  .float-right{
+    float: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .profile-desc{
+    display: flex;
+    flex-direction: column;
+  }
+  .prof-title{
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
+
 @media (min-width: 576px) and (max-width: 900px) {
   .col-sm {
     -webkit-flex-basis: 0;
@@ -1056,6 +1082,7 @@ pre code {
     margin-left: 91.666667%;
   }
 }
+
 @media (min-width: 768px) {
   .col-md {
     -webkit-flex-basis: 0;
@@ -7304,7 +7331,7 @@ button.bg-dark:hover {
   float: left !important;
 }
 .float-right {
-  float: right !important;
+  float: right;
 }
 .float-none {
   float: none !important;
@@ -7671,7 +7698,7 @@ button.bg-dark:hover {
 }
 .pr-3,
 .px-3 {
-  padding-right: 1rem !important;
+  padding-right: .5rem !important;
 }
 .pb-3,
 .py-3 {
@@ -7679,7 +7706,7 @@ button.bg-dark:hover {
 }
 .pl-3,
 .px-3 {
-  padding-left: 1rem !important;
+  /* padding-left: 1rem !important; */
 }
 .p-4 {
   padding: 1.5rem !important;
@@ -9818,10 +9845,11 @@ infobox info p {
   .navbar .nav-item {
     padding: 0.5em 1em;
   }
+  .navbar-brand{
+    margin-left: 0rem;
+  }
 }
-.navbar .navbar-nav {
-  /* border-top: 0.08vh solid white; */
-}
+
 
 @media (max-width: 1199.98px) {
   .navbar-expand-lg .navbar-nav .nav-link {
