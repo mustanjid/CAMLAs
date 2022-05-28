@@ -9303,6 +9303,7 @@ button.bg-dark:hover {
 }
 .font-weight-light {
   font-weight: 350 !important;
+  color: black;
 }
 .font-weight-lighter {
   font-weight: lighter !important;
@@ -9382,7 +9383,7 @@ a.text-dark:hover {
   color: #212529 !important;
 }
 .text-muted {
-  color: #95a5a6 !important;
+  color: #a8abaf !important;
 }
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
