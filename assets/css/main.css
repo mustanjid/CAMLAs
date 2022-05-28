@@ -1865,6 +1865,7 @@ pre code {
   color: #fff;
   background-color: hsla(0, 0%, 100%, 0.075);
 }
+
 @media (min-width: 320px) {
   .navbar-brand{
     margin-left: 0rem;
