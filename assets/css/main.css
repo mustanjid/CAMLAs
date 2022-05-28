@@ -1894,7 +1894,7 @@ pre code {
   background-color: hsla(0, 0%, 100%, 0.075);
 }
 
-@media only screen and (max-width: 568px){
+@media only screen and (max-width: 900px){
   .navbar-brand{
     margin-left: 0rem;
   }
@@ -9846,9 +9846,6 @@ infobox info p {
   }
   .navbar .nav-item {
     padding: 0.5em 1em;
-  }
-  .navbar-brand{
-    margin-left: 0rem;
   }
 }
 
