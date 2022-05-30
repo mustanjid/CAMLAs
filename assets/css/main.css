@@ -549,8 +549,15 @@ pre code {
   margin-left: auto;
 }
 
-@media only screen and (min-width: 900px){
+@media only screen and (max-width: 900px){
   .card-img,
+.card-img-bottom,
+.card-img-top{
+  height: auto;
+}
+}
+
+.card-img,
 .card-img-bottom,
 .card-img-top {
   -webkit-flex-shrink: 0;
@@ -560,8 +567,6 @@ pre code {
   max-width: 100%;
   object-fit: fill;
 }
-}
-
 @media (min-width: 576px) {
   .container,
   .container-sm {
