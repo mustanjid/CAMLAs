@@ -558,7 +558,7 @@ pre code {
     max-width: 100%;
     object-fit: fill;
 }
-  
+} 
 @media (min-width: 576px) {
   .container,
   .container-sm {
