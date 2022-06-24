@@ -9422,7 +9422,7 @@ a.text-dark:hover {
   color: #212529 !important;
 }
 .text-muted {
-  color: #a8abaf !important;
+  color: black !important;
 }
 .text-black-50 {
   color: rgba(0, 0, 0, 0.5) !important;
