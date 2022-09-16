@@ -3143,6 +3143,7 @@ input[type="submit"].btn-block {
     right: 0;
     left: auto;
   }
+  
 }
 @media (min-width: 992px) {
   .dropdown-menu-lg-left {
@@ -4228,6 +4229,9 @@ input[type="submit"].btn-block {
   .navbar-expand-md > .container-xl {
     padding-right: 0;
     padding-left: 0;
+  }
+  .display-3 {
+    font-size: 2rem;
   }
 }
 @media (min-width: 768px) {
@@ -9758,7 +9762,7 @@ a.text-dark:hover {
   .text-resp {
     text-align: center;
   }
-  #focus-area-showcase .middle-para,
+  #focus-area-showcase,
   .middle-para-heading {
     text-align: center !important;
   }
