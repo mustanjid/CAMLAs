@@ -9754,6 +9754,10 @@ a.text-dark:hover {
   }
 }
 
+.focus-1{
+  display: flex; flex-direction: row; justify-content: space-around; margin-left: 360px; font-size: 1.2rem; 
+  padding-bottom:60px;
+}
 
 @media (max-width: 889px) {
   #focus-area-showcase.hero-section {
@@ -9766,7 +9770,13 @@ a.text-dark:hover {
   .middle-para-heading {
     text-align: center !important;
   }
+
+  .focus-1{
+    display: flex; flex-direction: column; justify-content: space-around; font-size: 1rem; margin-left: 0px;
+    padding-bottom:10px;
+  }
 }
+
 .table-hover tbody tr:hover {
   background-color: #ec8734;
 }
@@ -9878,3 +9888,4 @@ infobox info p {
     padding-left: 0;
   }
 }
+
